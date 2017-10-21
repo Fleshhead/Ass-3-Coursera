@@ -1,13 +1,13 @@
 body {
-	background-color: #f5e9d7;
+	background-color: white;
 	font-size: 16px;
 	color: black;
 	font-family: serif;
 }
 
-/** HEADER**/
+/** NAVBAR **/
 #header-nav {
-	background-color: #476663;
+	background-color: #65a4b6;
 	border-radius: 0;
 	border: 0;
 	color: white;
@@ -17,10 +17,9 @@ body {
 }
 
 .navbar-brand h1 {
-	font-family: sans-serif;
-	color: white;
+	font-family: 'Sarala', sans-serif;
+	color: #a3cfdf;
 	font-size: 1.5em;
-	text-transform: uppercase;
 	font-weight: bold;
 	margin-top: 0;
 	margin-bottom: 0;
@@ -30,13 +29,56 @@ body {
 	text-decoration: none;
 }
 
-#nav-list {
-	margin-top: 10px;
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #a3cfdf;
+
 }
 
+#nav-list {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	}
+
 #nav-list a {
-	color: white;
+	color: #65a4b6;
 	text-align: center;
-	font-size: 1.8em;
+	vertical-align: middle;
+	font-size: 1.2em;
+	font-family: 'Sarala', sans-serif;
+	padding-top: 25px;
+}
+
+#nav-list {
+	background-color: #a3cfdf;
+}
+
+hr {
+	color: #65a4b6;
+}
+
+/** MAIN CONTENT**/
+h2 {
+	text-align: center;
+	font-family: 'Sarala', sans-serif;
+}
+
+h3 {
+	text-align: center;
+	font-family: 'Sarala', sans-serif;
+}
+p {
+	width: auto;
+	height: auto;
+	padding: 5px;
+}
+
+.food {
+	width: auto;
+	border: 1px solid darkgrey;
+	margin-top: 10px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	background-color: #a3cfdf;
 }
 
